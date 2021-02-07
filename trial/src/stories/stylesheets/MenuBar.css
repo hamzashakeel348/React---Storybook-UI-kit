@@ -1,0 +1,54 @@
+#MenuBar {
+  width: 24%;
+  display: inline-block;
+  padding: 2em 0em;
+}
+
+#Section1 {
+  padding: 1em;
+  display: inline-block;
+}
+#Menu2 {
+  display: flex;
+}
+#Menu2 > h3 {
+  margin-left: 5em;
+}
+#Section1 > p {
+  color: gray;
+}
+#profilePicture {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  vertical-align: sub;
+  margin-left: -0.2em;
+  margin-top: 0.5em;
+}
+#MenuBar_button {
+  background-color: #f0f0f0;
+  width: 15em;
+  height: 2em;
+  margin: 1em 0em;
+  color: gray;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  display: block;
+}
+#section2 {
+  margin: 2em 0em;
+  display: grid;
+}
+#section2 > div {
+  color: gray;
+  display: inline-block;
+  padding: 1em;
+  width: 94.5%;
+}
+#Signout {
+  margin-top: 10em;
+  color: gray;
+}
+#Signout > svg {
+  color: gray;
+}

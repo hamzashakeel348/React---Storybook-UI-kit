@@ -1,0 +1,49 @@
+.wrapper {
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+#Main {
+  display: inline;
+  vertical-align: sub;
+}
+
+#Main > svg,
+#Main2 > svg {
+  /* height: 1em; */
+  color: black;
+  font-size: 1.3em;
+  vertical-align: sub;
+}
+
+#Main > hr,
+#Main2 > hr {
+  display: inline-block;
+  transform: rotate(90deg);
+  width: 25px;
+  color: #d5d5d5;
+  vertical-align: sub;
+}
+
+select {
+  background-color: #f0f0f0;
+  border: 1px solid #d5d5d5;
+  color: gray;
+  border-radius: 4px;
+  position: relative;
+  width: 18em;
+  height: 3em;
+}
+
+#Main2 {
+  float: right;
+  margin: 0.5em;
+}
+
+#ProfilePicture {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  vertical-align: sub;
+}

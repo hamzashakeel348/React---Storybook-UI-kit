@@ -1,0 +1,125 @@
+.MemebersListing {
+  float: right;
+  width: 69.5%;
+  padding: 2em;
+  background-color: #f0f0f0;
+  border-left: 1px solid #d5d5d5;
+  display: inline-block;
+}
+#MemebersListing1 > select {
+  display: inline;
+}
+#section > svg {
+  float: right;
+}
+#MemebersListing1 > h3 {
+  width: 33%;
+  padding: 0;
+  min-width: 22%;
+  margin: 0;
+  display: inline-block;
+}
+#MemebersListing1 > p {
+  color: gray;
+}
+#MemebersListing1 > svg {
+  right: 3.1em;
+  /* top: 0.2em; */
+  vertical-align: middle;
+  height: 2.35em;
+  border-left: 1px solid black;
+  position: relative;
+  padding: 0em 0.5em;
+}
+#profilePicture {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  vertical-align: sub;
+  position: relative;
+  bottom: 0.7em;
+  left: 0.5em;
+}
+#Section_right {
+  float: right;
+  display: flex;
+  height: 1.3em;
+  vertical-align: middle;
+  position: relative;
+  top: 1em;
+}
+#Section_right3 {
+  float: right;
+  display: flex;
+  height: 1.3em;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1em;
+}
+#Section_right > button {
+  height: 1.5em;
+  color: white;
+  background-color: #1e90ff;
+  border: 0;
+  border-radius: 5px;
+}
+
+#Section_right > p {
+  margin: 1em 0.5em;
+  position: relative;
+  bottom: 1em;
+}
+#section,
+#section3 {
+  font-weight: 600;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  width: 100%;
+  margin: 1em 0em;
+  background-color: white;
+  display: grid;
+}
+#section > div {
+  border-bottom: 1px solid #d5d5d5;
+  color: gray;
+  padding: 0.5em;
+}
+#section3 > div {
+  border-bottom: 1px solid #d5d5d5;
+  color: gray;
+  padding: 1em;
+}
+
+#section_svg,
+#section3 > svg {
+  float: right;
+}
+input {
+  width: 18em;
+  height: 2.4em;
+  margin: 1em;
+}
+#one {
+  display: inline-block;
+  transform: rotate(90deg);
+  width: 25px;
+  color: #d5d5d5;
+  vertical-align: sub;
+}
+#Info > h3 {
+  font-size: 0.9em;
+}
+
+#Info > p {
+  font-size: 0.7em;
+  margin: -1em 0;
+}
+#Info {
+  position: relative;
+  left: 1em;
+  bottom: 0.5em;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
